@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    background: url(https://st2.depositphotos.com/5501600/8921/i/450/depositphotos_89211520-stock-photo-blue-background-abstract-with-lighting.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.container{
+width: 420px;
+background:rgb(112, 159, 229) ;
+border: 2px solid #f7f7e8;
+backdrop-filter: blur(30px);
+border-radius: 10px;
+padding: 40px 50px;
+}
+.h1{
+   font-size: 36px;
+   text-align: center;
+   color: floralwhite
+   ;
+}
+
+.input-container{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    
+}
+
+.email{
+width: 100%; 
+height: 100%;
+border:none;
+outline: none;
+border: 2px color transparent;
+border-radius: 10px;
+font-size:  16px;
+color: #ffffff;
+padding: 20px 45px 20px 20px;
+
+}
+.email::placeholder{
+color: #3c3c3b;
+
+}
+
+.senha{
+    width: 100%; 
+    height: 100%;
+    border:none;
+    outline: none;
+    border: 2px color transparent;
+    border-radius: 10px;
+    font-size:  16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-container img {
+position:absolute;
+right: 24px;
+margin-top: 5px;
+top: 20%;
+}
+.cadeado{
+position: absolute;    
+right: 17px;
+margin-top:30px;
+top: 50%;
+right: 18%;
+}
+.input-container a{
+    font-size: 16px;
+    margin-top: 5px;
+    color:#3c3c3b;
+    text-decoration: none;
+    
+}
+.input-container a:hover{
+
+ text-decoration: underline;
+   
+}
+.button{
+
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 10px;
+    color:#3c3c3b;
+    margin-top: 24px;
+    cursor: pointer;
+    outline:none;
+    font-size: 16px;
+
+}
+.button:hover{
+background-color: #1c1c11;
+}
+.cadastro p a{
+font-size: 16px;
+color:#ffffff;
+font-weight: 300px;
+text-decoration: none;
+
+}
